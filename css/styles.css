@@ -81,11 +81,6 @@ img {
 
 /* button */
 .btn {
-    /* padding-left: auto;
-    padding-right: auto; */
-    /* padding: 0;
-    text-align: center; */
-
     font-family: inherit;
     cursor: pointer;
 }
@@ -104,8 +99,6 @@ img {
     clip-path: inset(50%);
     margin: -1px;
 }
-
-
 
 /* ================== */
 /*        HEADER */
@@ -301,13 +294,7 @@ img {
 
 .list-benefits .item {
     width: 270px;
-    /* background-color: tomato; */
-    /* margin-right: 30px; */
 }
-
-/* .list-benefits .item:last-child {
-    margin-right: 0;
-} */
 
 /* title */
 .title-benefits {
@@ -438,8 +425,6 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* margin-right: 30px; */
-    /* margin-bottom: 30px; */
 }
 
 
@@ -449,7 +434,6 @@ img {
     border: 1px solid var(--brd-cl-portfolio-fig);
     margin-right: 30px;
     margin-bottom: 30px;
-    /* padding-bottom: 20px; */
 
     background-color: var(--white-color);
 }
@@ -487,9 +471,6 @@ img {
 .text-cards {
     margin-left: 24px;
     margin-right: 24px;
-    /* padding-bottom: 20px; */
-    /* margin-bottom: 20px; */
-
 
     font-size: 16px;
     line-height: 1.88;
