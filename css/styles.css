@@ -78,6 +78,11 @@ img {
 
 /* button */
 .btn {
+    /* padding-left: auto;
+    padding-right: auto; */
+    /* padding: 0;
+    text-align: center; */
+
     font-family: inherit;
     cursor: pointer;
 }
@@ -220,6 +225,11 @@ img {
 /* ================== */
 /*       HERO */
 /* ================== */
+.hero-container {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
 .hero {
     background-color: var(--background-black-color);
 }
@@ -239,6 +249,13 @@ img {
 
 /* button */
 .hero-btn {
+
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    /* padding: 0;
+    text-align: center; */
+
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
