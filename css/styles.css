@@ -64,6 +64,7 @@ body {
 
 /* Контейнер */
 .container {
+    outline: 1px solid red;
     width: 1200px;
 
     padding-left: 15px;
