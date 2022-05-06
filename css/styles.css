@@ -11,6 +11,7 @@
     --background-black-color: #2F303A;
     --link-contact-footer: rgba(255, 255, 255, 0.6);
     --bg-cl-hero-btn-hover: #188CE8;
+    --brd-bot-header: #ECECEC;
     /* portfolio */
     --background-color-portfolio-btn: #F5F4FA;
     --brd-cl-portfolio-fig: #EEEEEE;
@@ -35,7 +36,7 @@ body {
 
 /* Контейнер */
 .container {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     width: 1200px;
 
     padding-left: 15px;
@@ -109,7 +110,12 @@ img {
 /* ================== */
 /*        HEADER */
 /* ================== */
+.header {
+    border-bottom: 1px solid var(--brd-bot-header);
+}
+
 /* Контейнер Flex */
+
 .header-container {
     display: flex;
     align-items: center;
@@ -431,6 +437,7 @@ img {
 .list-portfolio {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     /* margin-right: 30px; */
     /* margin-bottom: 30px; */
 }
