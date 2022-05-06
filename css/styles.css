@@ -228,6 +228,7 @@ img {
 .hero-container {
     padding-top: 200px;
     padding-bottom: 200px;
+    text-align: center;
 }
 
 .hero {
@@ -236,11 +237,12 @@ img {
 
 /* title */
 .hero-title {
+    margin-bottom: 30px;
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
 
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
@@ -249,21 +251,18 @@ img {
 
 /* button */
 .hero-btn {
+    display: inline-block;
 
-    margin-top: 30px;
-    width: 200px;
-    height: 50px;
-    /* padding: 0;
-    text-align: center; */
+    padding: 10px 32px;
+    min-width: 200px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-align: center;
+
 
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
 
     color: var(--white-color);
 
@@ -278,8 +277,25 @@ img {
 /* ================== */
 /*     BENEFITS */
 /* ================== */
+.list-benefits {
+    display: flex;
+    margin-bottom: -94px;
+}
+
+.list-benefits .item {
+    width: 270px;
+    /* background-color: tomato; */
+    margin-right: 30px;
+}
+
+.list-benefits .item:last-child {
+    margin-right: 0;
+}
+
 /* title */
 .title-benefits {
+    margin-bottom: 10px;
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
