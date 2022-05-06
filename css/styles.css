@@ -1,0 +1,270 @@
+/* ======================= */
+/*        VARIABLES*/
+/* ======================= */
+:root {
+    /* main */
+    --main-color: #757575;
+    --white-color: #ffffff;
+    --blue-color: #2196F3;
+    --black-color: #000000;
+    --title-color: #212121;
+    --background-black-color: #2F303A;
+    --link-contact-footer: rgba(255, 255, 255, 0.6);
+    --bg-cl-hero-btn-hover: #188CE8;
+    /* portfolio */
+    --background-color-portfolio-btn: #F5F4FA;
+}
+
+/* ================== */
+/*        BODY */
+/* ================== */
+body {
+    font-family: Roboto, sans-serif;
+    /* font-style: normal;
+    font-weight: 400; */
+    font-size: 14px;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
+
+    color: var(--main-color);
+    background-color: var(--white-color);
+}
+
+/* list */
+.list {
+    list-style: none;
+}
+
+/* link */
+.link {
+    text-decoration: none;
+}
+
+/* button */
+.btn {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+/* Приховані заголовки */
+.hidden {
+    display: none;
+}
+
+/* ================== */
+/*        HEADER */
+/* ================== */
+
+
+/* logo */
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+    text-decoration: none;
+
+    color: var(--blue-color);
+}
+
+.logo-studio {
+    color: var(--black-color);
+}
+
+/* header-navigation */
+
+.link-navigation {
+    font-weight: 500;
+
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--title-color);
+
+}
+
+.link-contact-header {
+
+    font-weight: 500;
+
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--main-color);
+}
+
+.link-contact-header:focus,
+.link-contact-header:hover,
+.link-navigation:focus,
+.link-navigation:hover {
+    color: var(--blue-color);
+}
+
+.current {
+    color: var(--blue-color);
+}
+
+/* ================== */
+/*       FOOTER */
+/* ================== */
+
+.footer {
+    background-color: var(--background-black-color);
+}
+
+/* Logo */
+.footer-logo-studio {
+    color: var(--white-color);
+}
+
+/* address */
+.footer-address {
+    font-style: normal;
+    color: var(--white-color);
+}
+
+.link-contact-footer {
+    color: var(--link-contact-footer);
+}
+
+/* =============================================== */
+/*                      MAIN */
+/* =============================================== */
+/* ================== */
+/*       HERO */
+/* ================== */
+.hero {
+    background-color: var(--background-black-color);
+}
+
+/* title */
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+/* button */
+.hero-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: var(--white-color);
+
+    background-color: var(--blue-color);
+}
+
+.hero-btn:focus,
+.hero-btn:hover {
+    background-color: var(--bg-cl-hero-btn-hover);
+}
+
+/* ================== */
+/*     BENEFITS */
+/* ================== */
+/* title */
+.title-benefits {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    color: var(--title-color);
+}
+
+/* ================== */
+/*    WHAT WE DO */
+/* ================== */
+.title-work {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+
+    color: var(--title-color);
+}
+
+/* ================== */
+/*      OUR TEAM */
+/* ================== */
+/* title */
+.title-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+
+    color: var(--title-color);
+}
+
+.team .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+
+    text-align: center;
+
+    color: var(--title-color);
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.19;
+
+    text-align: center;
+}
+
+/* =============================================== */
+/*                      PORTFOLIO */
+/* =============================================== */
+/* button */
+.portfolio-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+
+    text-align: center;
+
+    color: var(--title-color);
+    background-color: var(--background-color-portfolio-btn);
+
+}
+
+.portfolio-btn:focus,
+.portfolio-btn:hover {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+}
+
+/* cards */
+.title-cards {
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+
+    letter-spacing: 0.06em;
+
+    color: var(--title-color);
+}
+
+.text-cards {
+    font-size: 16px;
+    line-height: 1.88;
+
+    color: var(--main-color);
+}
