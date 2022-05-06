@@ -205,6 +205,14 @@ img {
     background-color: var(--background-black-color);
 }
 
+.footer-list {
+    margin-top: 20px;
+}
+
+.footer .item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
 /* Logo */
 .footer-logo-studio {
     color: var(--white-color);
