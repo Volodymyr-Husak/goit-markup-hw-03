@@ -42,7 +42,7 @@ body {
 
 /* Контейнер */
 .container {
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     width: 1200px;
 
     padding-left: 15px;
@@ -345,7 +345,6 @@ img {
 
 .figure {
     margin: 0;
-    padding-bottom: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -353,14 +352,24 @@ img {
     background-color: var(--white-color);
 }
 
+.figcaption {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.list-team .item:not(:last-child) {
+    margin-right: 30px;
+}
+
 .list-team .title {
-    margin-top: 30px;
     margin-bottom: 10px;
 }
+
 
 /* title */
 .title-team {
     margin-bottom: 50px;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
