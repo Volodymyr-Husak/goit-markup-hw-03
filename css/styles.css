@@ -34,6 +34,12 @@ body {
     background-color: var(--white-color);
 }
 
+/* Секції */
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 /* Контейнер */
 .container {
     /* outline: 1px solid red; */
@@ -44,11 +50,6 @@ body {
 
     margin-left: auto;
     margin-right: auto;
-}
-
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 /* h1,h2,h3,h4,h5,h6,p / margin: 0 */
@@ -233,14 +234,14 @@ img {
 /* ================== */
 /*       HERO */
 /* ================== */
-.hero-container {
-    text-align: center;
-}
-
 .hero {
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: var(--background-black-color);
+}
+
+.hero-container {
+    text-align: center;
 }
 
 /* title */
@@ -285,10 +286,14 @@ img {
 /* ================== */
 /*     BENEFITS */
 /* ================== */
+.benefits {
+    padding-bottom: 0;
+}
+
 .list-benefits {
     display: flex;
     justify-content: space-between;
-    margin-bottom: -94px;
+    /* margin-bottom: -94px; */
 }
 
 .list-benefits .item {
