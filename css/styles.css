@@ -44,7 +44,7 @@ body {
 
 /* Контейнер */
 .container {
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     width: 1200px;
 
     padding-left: 15px;
@@ -299,7 +299,12 @@ img {
 }
 
 .list-benefits .item {
+    margin-right: 30px;
     width: 270px;
+}
+
+.list-benefits .item:last-child {
+    margin-right: 0;
 }
 
 /* title */
