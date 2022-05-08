@@ -424,11 +424,15 @@ img {
 
     color: var(--title-color);
     background-color: var(--background-color-portfolio-btn);
-
 }
 
 .portfolio-btn:focus,
 .portfolio-btn:hover {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+}
+
+.current-portfolio {
     background-color: var(--blue-color);
     color: var(--white-color);
 }
