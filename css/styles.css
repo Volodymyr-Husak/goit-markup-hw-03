@@ -338,6 +338,10 @@ img {
     justify-content: space-between;
 }
 
+.list-work .item:not(:last-child) {
+    margin-right: 30px;
+}
+
 /* ================== */
 /*      OUR TEAM */
 /* ================== */
