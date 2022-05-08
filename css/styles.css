@@ -168,7 +168,6 @@ img {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
-    margin-right: 50px;
 
     font-weight: 500;
 
@@ -178,8 +177,8 @@ img {
     color: var(--main-color);
 }
 
-.contact-header:last-child {
-    margin-right: 0;
+.contact-header .item:not(:last-child) {
+    margin-right: 50px;
 }
 
 
